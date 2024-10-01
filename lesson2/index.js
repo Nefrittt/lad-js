@@ -1,6 +1,12 @@
+// const testVar = String(null);
+// console.log(typeof testVar);
 
-const num = 5;
-console.log(num)
+// const testNumber = Number("  25z  ");
+// const testNumber = +"  25z  ";
 
+// console.log(testNumber, typeof testNumber);
 
-// development comment
+// const testBooleanVar = Boolean({});
+testBooleanVar = !!"0";
+
+console.log(testBooleanVar, typeof testBooleanVar);
